@@ -19,6 +19,7 @@
   fontconfig,
   expat,
   lib,
+  libgcrypt,
   mesa,
   wrapGAppsHook,
   autoPatchelfHook,
@@ -51,6 +52,7 @@ stdenv.mkDerivation rec {
     cairo
     atk
     gdk-pixbuf
+    libgcrypt
     at-spi2-atk
     dbus
     dconf
